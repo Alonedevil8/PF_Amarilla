@@ -1,0 +1,71 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.andres.pf_amarillas.Fragment4"
+    android:background="#fef200">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Version: 1.0 "
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="22sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:text="Fecha: 30 noviembre 2016"
+            android:textSize="22sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:text="Autor: Andres Dorado"
+            android:textSize="22sp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="40sp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ubicacion"
+            android:textSize="20sp"
+            android:id="@+id/eGps"
+            android:gravity="center"
+            android:background="#000000"
+            android:onClick="onButtonclicked"
+            android:textStyle="bold"
+            android:textColor="#FAFAFA" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text=""
+            android:textSize="10sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Copyright 2016 - 2018 "
+            android:textColor="#000000"
+            android:textSize="20sp"/>
+
+
+    </LinearLayout>
+
+</FrameLayout>

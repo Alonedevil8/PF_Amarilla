@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.andres.pf_amarillas.RegistroEmp"
+    android:orientation="vertical"
+    android:background="#fef200">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textColor="#FAFAFA"
+                android:background="#000000"
+                android:text="Registro Empresa"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/eUsuario"
+                android:hint="Nombre De La Empresa"
+                android:textSize="16dp"
+                android:gravity="center"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/eNickname"
+                android:hint="Nickname"
+                android:textSize="16dp"
+                android:gravity="center"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/eCell"
+                android:hint="Celular"
+                android:textSize="16sp"
+                android:gravity="center"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/eTel"
+                android:hint="Telefono"
+                android:textSize="16sp"
+                android:gravity="center"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/eEmail"
+                android:hint="E-mail"
+                android:textSize="16dp"
+                android:gravity="center"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/eDire"
+                android:hint="Direccion"
+                android:textSize="16dp"
+                android:gravity="center"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/eContrasena"
+                android:hint="Contraseña"
+                android:textStyle="italic"
+                android:textSize="16dp"
+                android:gravity="center"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/eRcontrasena"
+                android:hint="R.Contraseña"
+                android:inputType="textPassword"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Categorias Existentes: "
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:gravity="left"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tienda-Restaurante-Music-Hotel-Medicina-Otros"
+                android:textSize="20dp"
+                android:gravity="center"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/eCategoria"
+                android:hint="Categoria"
+                android:textSize="16dp"
+                android:textStyle="italic"
+                android:gravity="center"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Aceptar"
+                    android:textSize="17sp"
+                    android:id="@+id/eAceptar"
+                    android:gravity="center"
+                    android:background="#000000"
+                    android:onClick="onButtonclicked"
+                    android:textStyle="bold"
+                    android:textColor="#FAFAFA" />
+
+                <Button
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Cancelar"
+                    android:textSize="17sp"
+                    android:id="@+id/eCancelar"
+                    android:gravity="center"
+                    android:background="#000000"
+                    android:onClick="onButtonclicked"
+                    android:textStyle="bold"
+                    android:textColor="#FAFAFA" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
